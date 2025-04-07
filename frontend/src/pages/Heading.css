@@ -1,0 +1,17 @@
+/* src/components/Heading.css */
+.heading-container {
+    text-align: center;
+    padding: 50px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .heading-container h1 {
+    font-size: 48px;
+    color: #333;
+  }
+  
+  .heading-container p {
+    font-size: 24px;
+    color: #555;
+  }
+  

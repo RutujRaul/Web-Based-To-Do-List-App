@@ -1,0 +1,59 @@
+/* src/components/TaskList.css */
+.task-list-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .task-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    background: #f9f9f9;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .task-content {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .task-time {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .task-item input,
+  .task-item .datepicker {
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .task-item button {
+    padding: 6px 12px;
+    border: none;
+    background-color: #0077cc;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .task-item button:hover {
+    background-color: #005fa3;
+  }
+  
